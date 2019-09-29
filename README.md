@@ -24,3 +24,4 @@ The θ is calculated as so:
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/72263d5113a7cc985f29fc9fc4b3f5e85dd5bbe5" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.171ex; width:14.23ex; height:5.509ex;" alt="m=\frac{y_2-y_1}{x_2-x_1}.">
 <img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/9e53a5ce7db600961ae411d4d1fbef636a62ddb9" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:11.398ex; height:2.843ex;" alt="m = \tan (\theta)">
 
+**Note:** raw_log is the name of the folder used where all of the images are proccessed. The folder "example images" is used purely to show what each image may look like
