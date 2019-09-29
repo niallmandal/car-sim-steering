@@ -1,12 +1,19 @@
 # car-sim-steering
 This is an algorithm to predict the steering angle of a car from a Unity simulation
 
+
+## Unity
+The github to the simulator used can be found here: https://github.com/tawnkramer/sdsandbox.
+
+~10K images were captured on frame data, with the steering angle and throttle recorded in the actual name of each image.
+
+Each image is unaltered, and is just pure pixel data.
+
 ## Breakdown of each file:
 1) **`my_cv.py`**: holds most of the OpenCV2 files that manipulate the image and ultimately creates the lines
 2) **`lines.py`**: runs the functions set up in `my_cv.py` defined as one overall function
 3) **`formula.py`**: creates a dataset from the lines of each simulation image, with the columns as `left_line_y_int`,`left_line_slope`,`left_line_angle`,`right_line_y_int`,`right_line_slope`,`right_line_angle`,`steering`, and `throttle`
 3) **`formula_rho_theta.py`**: creates a dataset from the lines of each simulation image, with the columns as `left_line_rho`,`left_line_theta`,`right_line_rho`,`right_line_theta`,`steering`, and `throttle`
-4) 
 
 The ρ function is a numpy version of this function:
 
