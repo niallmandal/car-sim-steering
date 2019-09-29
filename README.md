@@ -1,5 +1,5 @@
 # car-sim-steering
-This is an algorithm to predict the steering angle of a car from a Unity simulation. This simulation is based on a project called DonkeyCar in which teams create a RC car to autonoumously drive. This is a virtual solution to this problem using Computer Vision. Dataset for training images can be found here: https://www.kaggle.com/niallmandal/car-data-from-a-unity-simulation
+This is an algorithm to predict the steering angle of a car from a Unity simulation. This simulation is based on a project called DonkeyCar in which teams create a RC car to autonomously drive. This is a virtual solution to this problem using Computer Vision. Dataset for training images can be found here: https://www.kaggle.com/niallmandal/car-data-from-a-unity-simulation
 
 ## Unity
 The github to the simulator used can be found here: https://github.com/tawnkramer/sdsandbox.
